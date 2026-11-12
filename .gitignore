@@ -1,0 +1,7 @@
+# Downloaded transcript/business datasets
+*.parquet
+
+# Python cache and transient files
+__pycache__/
+*.py[cod]
+*$py.class

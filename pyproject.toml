@@ -1,0 +1,16 @@
+[project]
+name = "maturarbeit"
+version = "0.1.0"
+description = "Swiss parliamentary transcript data tools"
+requires-python = ">=3.10"
+dependencies = [
+    "polars",
+    "swissparlpy",
+    "typer",
+    "tqdm",
+]
+
+[dependency-groups]
+dev = [
+    "uv",
+]
